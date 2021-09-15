@@ -1,20 +1,19 @@
-def bubble_sort(array)
-  n = array.length
+def bubble_sort(myarray)
+  n = myarray.length
   loop do
   swapped = false
   (n - 1).times do |i|
-    if array[i] > array[i + 1]
-    array[i], array[i + 1] = array[i + 1], array[i]
+    if myarray[i] > myarray[i + 1]
+  myarray[i], myarray[i + 1] = myarray[i + 1], myarray[i]
     swapped = true
     end
   end
   break if not swapped
 end
-array
+myarray
 end
 a = [1, 4, 6, 2, 1, 9, 8, 3]
 p bubble_sort(a)
-
 
 def bubble_sort_by(arr)
   swap_test = true
