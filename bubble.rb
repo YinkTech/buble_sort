@@ -8,8 +8,8 @@ def bubble_sort(myarray)
       swapped = true
     end
   end
-  break unless !swapped
-  end
+    break unless !swapped
+    end
   myarray
 end
 a = [1, 4, 6, 2, 1, 9, 8, 3]
