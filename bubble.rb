@@ -2,7 +2,7 @@ def bubble_sort(myarray)
   n = myarray.length
   loop do
     swapped = false
-  (n - 1).times do |i|
+    (n - 1).times do |i|
     if myarray[i] > myarray[i + 1]
       myarray[i], myarray[i + 1] = myarray[i + 1], myarray[i]
       swapped = true
@@ -10,7 +10,7 @@ def bubble_sort(myarray)
   end
   break unless !swapped
   end
-myarray
+  myarray
 end
 a = [1, 4, 6, 2, 1, 9, 8, 3]
 p bubble_sort(a)
