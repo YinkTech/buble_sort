@@ -1,7 +1,7 @@
 def bubble_sort(myarray)
   n = myarray.length
   loop do
-  swapped = false
+    swapped = false
   (n - 1).times do |i|
     if myarray[i] > myarray[i + 1]
       myarray[i], myarray[i + 1] = myarray[i + 1], myarray[i]
