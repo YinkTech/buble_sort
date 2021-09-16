@@ -5,10 +5,10 @@ def bubble_sort(myarray)
   (n - 1).times do |i|
     if myarray[i] > myarray[i + 1]
       myarray[i], myarray[i + 1] = myarray[i + 1], myarray[i]
-    swapped = true
+      swapped = true
     end
   end
-  break if not swapped
+  break unless !swapped
   end
 myarray
 end
