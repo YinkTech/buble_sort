@@ -4,8 +4,8 @@ def bubble_sort(myarray)
     swapped = false
     (n - 1).times do |i|
       if myarray[i] > myarray[i + 1]
-      myarray[i], myarray[i + 1] = myarray[i + 1], myarray[i]
-      swapped = true
+        myarray[i], myarray[i + 1] = myarray[i + 1], myarray[i]
+        swapped = true
       end
     end
     break if swapped
