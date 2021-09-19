@@ -8,7 +8,7 @@ def bubble_sort(myarray)
         swapped = true
       end
     end
-    break if swapped
+    break unless swapped
   end
   myarray
 end
